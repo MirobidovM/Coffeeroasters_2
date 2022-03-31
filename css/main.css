@@ -66,6 +66,28 @@ ol {
   margin: 0 auto;
 }
 
+.create-link {
+  padding: 15px 31px 16px 31px;
+  font-family: "Fraunces";
+  background-color: #0e8784;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  transition: 0.3s ease;
+}
+
+.create-link:hover {
+  opacity: 0.7;
+}
+
+.create-link:active {
+  background-color: #66d2cf;
+}
+
 /* HEADER */
 .header {
   padding-top: 43px;
@@ -76,6 +98,8 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0;
+  padding: 0 2px;
 }
 
 .logo {
@@ -119,7 +143,7 @@ ol {
 }
 
 .nav__link:active {
-  color: #333;
+  color: #333d4b;
 }
 
 /* INTRO */
@@ -165,28 +189,6 @@ ol {
   mix-blend-mode: normal;
   opacity: 0.8;
   margin-bottom: 56px;
-}
-
-.create-link {
-  padding: 15px 31px 16px 31px;
-  font-family: "Fraunces";
-  background-color: #0e8784;
-  border-radius: 6px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  color: #fefcf7;
-  transition: 0.3s ease;
-}
-
-.create-link:hover {
-  opacity: 0.7;
-}
-
-.create-link:active {
-  opacity: 0.4;
 }
 
 /* OUR */

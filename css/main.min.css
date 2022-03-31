@@ -58,6 +58,27 @@ ul {
   padding: 0 20px;
   margin: 0 auto;
 }
+.create-link {
+  padding: 15px 31px 16px 31px;
+  font-family: Fraunces;
+  background-color: #0e8784;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.create-link:hover {
+  opacity: 0.7;
+}
+.create-link:active {
+  background-color: #66d2cf;
+}
 .header {
   padding-top: 43px;
   padding-bottom: 43px;
@@ -72,6 +93,8 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding: 0;
+  padding: 0 2px;
 }
 .logo {
   -webkit-transition: 0.3s ease;
@@ -112,7 +135,7 @@ ul {
   color: #fdd6ba;
 }
 .nav__link:active {
-  color: #333;
+  color: #333d4b;
 }
 .intro {
   margin-bottom: 136px;
@@ -152,27 +175,6 @@ ul {
   mix-blend-mode: normal;
   opacity: 0.8;
   margin-bottom: 56px;
-}
-.create-link {
-  padding: 15px 31px 16px 31px;
-  font-family: Fraunces;
-  background-color: #0e8784;
-  border-radius: 6px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  color: #fefcf7;
-  -webkit-transition: 0.3s ease;
-  -o-transition: 0.3s ease;
-  transition: 0.3s ease;
-}
-.create-link:hover {
-  opacity: 0.7;
-}
-.create-link:active {
-  opacity: 0.4;
 }
 .our {
   margin-bottom: 200px;
