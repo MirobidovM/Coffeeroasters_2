@@ -662,3 +662,40 @@ ol {
   line-height: 26px;
   color: #333d4b;
 }
+
+/* SUBSCRIBE PAGE */
+
+/* HERO */
+
+.hero {
+  margin-bottom: 168px;
+}
+.hero__container {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  height: 450px;
+}
+.hero__content {
+  width: 492px;
+  margin: 0;
+  padding-top: 134px;
+  padding-left: 65px;
+}
+.hero__title {
+  margin-bottom: 32px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+.hero__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+}
