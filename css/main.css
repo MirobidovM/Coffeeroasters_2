@@ -88,6 +88,8 @@ ol {
   background-color: #66d2cf;
 }
 
+/* INDEX PAGE */
+
 /* HEADER */
 .header {
   padding-top: 43px;
@@ -473,4 +475,133 @@ ol {
 
 .socials__item-link:active {
   opacity: 0.4;
+}
+
+/* ABOUT PAGE */
+
+/* ABOUT INTRO */
+
+.about-intro {
+  margin-bottom: 168px;
+}
+.about-intro__container {
+  background-image: url(../img/about-intro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  height: 450px;
+}
+.about-intro__content {
+  max-width: 445px;
+  padding-top: 137px;
+  padding-left: 85px;
+}
+.about-intro__title {
+  margin-bottom: 24px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.about-intro__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+}
+
+/* ABOUT OUR */
+
+.about-our {
+  margin-bottom: 168px;
+}
+
+.about-out__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-our__img {
+  border-radius: 8px;
+  margin-right: 125px;
+}
+
+.about-out__content {
+  max-width: 540px;
+}
+.about-out__title {
+  margin-bottom: 32px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+}
+.about-out__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+/* QUALITY */
+
+.quality {
+  margin-bottom: 168px;
+}
+
+.quality__container {
+  background-color: #2c343e;
+  border-radius: 10px;
+  position: relative;
+}
+
+.quality__content {
+  max-width: 605px;
+  margin: 0;
+  padding-top: 88px;
+  padding-bottom: 178px;
+  padding-left: 65px;
+}
+
+.quality__content::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 445px;
+  height: 474px;
+  background-image: url(../img/about-quality.jpg);
+  top: -70px;
+  right: 85px;
+  border-radius: 10px;
+}
+
+.quality__title {
+  font-family: "Fraunces";
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.quality__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
 }
