@@ -605,3 +605,60 @@ ol {
   mix-blend-mode: normal;
   opacity: 0.8;
 }
+
+/* ABOUT HEADQUARTERS */
+
+.headquarters {
+  margin-bottom: 168px;
+}
+
+.headquarters__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 72px;
+  margin-left: 104px;
+}
+.headquarters__list {
+  display: flex;
+  justify-content: center;
+}
+
+.headquarters__item {
+  width: 285px;
+  margin-right: 108px;
+}
+
+.headquarters__item:last-child {
+  margin-right: 0;
+}
+
+.headquarters__item-img {
+  margin-right: auto;
+  margin-bottom: 45px;
+}
+
+.headquarters__item-img:last-child {
+  margin-bottom: 48px;
+}
+
+.headquarters__item-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-bottom: 24px;
+}
+.headquarters__item-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
